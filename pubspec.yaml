@@ -1,0 +1,38 @@
+name: news_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  carousel_slider: ^5.0.0
+  http: ^1.2.1
+  easy_url_launcher: ^0.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/image/
+  fonts:
+    - family : 'Funky01'
+      fonts :
+        - asset : 'asset\fonts\Funky01.ttf'  
+
+    - family : 'Funky02'
+      fonts :
+        - asset : 'asset\fonts\Funky02.ttf'
+    - family : 'Pop'
+      fonts :
+        - asset : 'asset\fonts\Pop_M.ttf'
+
