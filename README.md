@@ -1,3 +1,3 @@
-# news_app
+# Durust News (Andriod)
+*An app where on can read any news*
 
-A new Flutter project.
